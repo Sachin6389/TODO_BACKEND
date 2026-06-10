@@ -1,7 +1,7 @@
 import { asyncHandler } from "../Utiles/AscynHandler.js";
 import { ApiError } from "../Utiles/ApiError.js";
 import { Apiresponse } from "../Utiles/ApiResponse.js";
-import { Task } from "../Models/Task.Models.js";
+import { Task } from "../Models/task.Models.js";
 
 // Create a new task
 const createTask = asyncHandler(async (req, res) => {
