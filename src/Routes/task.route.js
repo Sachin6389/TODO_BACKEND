@@ -5,7 +5,7 @@ import {  createTask,
     deleteTask,
     updatestatus,
     singletask} from '../Controlers/Task.controler.js'
-import { verifyjwt } from '../MiddleWare/auth.middleware.js'
+import { verifyjwt } from '../Middleware/auth.middleware.js'
    
 
    
