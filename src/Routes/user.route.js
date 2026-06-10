@@ -2,7 +2,7 @@ import{Router}  from 'express'
 import { registerUser } from '../Controlers/User.controler.js'
 import { LogoutUser } from '../Controlers/User.controler.js'
 import { loginuser } from '../Controlers/User.controler.js'
-import { verifyjwt } from '../MiddleWare/auth.middleware.js'
+import { verifyjwt } from '../Middleware/auth.middleware.js'
 import{refreshAccessToken,
    changePassword,} 
    from '../Controlers/User.controler.js'
